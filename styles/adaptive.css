@@ -1,0 +1,32 @@
+html {
+ min-width: 320px !important;
+}
+
+body {
+ min-width: 320px !important;
+}
+
+.banner970 {
+ height: 200px;
+ overflow: hidden;
+}
+
+@media screen and (max-width: 620px) {
+ .bannerBackground {
+  display: none;
+ }
+
+ .adfox-banner-background {
+  display: none;
+ }
+
+ .banner970 {
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+ }
+
+ .page-footer__banner {
+  display: none;
+ }
+}

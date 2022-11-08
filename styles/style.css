@@ -1,0 +1,13 @@
+.menu__item, .header-anon__buttons, .input_with-label-above, .link_dropdown-container-link,
+.footer__menu__links__title, .footer__join {
+ font-family: 'Open Sans Semibold', Arial, sans-serif !important;
+ font-weight: 600 !important;
+}
+.input_with-label-above {
+ margin: 10px 0 19px 0 !important;
+ transform: translateY(-1px) !important;
+}
+.dropdown-tumbler {
+ background: url('/icons/dropdown.png') no-repeat !important;
+ background-size: 8px !important;
+}
