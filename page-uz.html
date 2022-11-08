@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/icons/favicon.ico" sizes="16x16 24x24 32x32 48x48 64x64" type="image/x-icon">
+  <title>Kundalik | Kundalik ga kirish</title>
+  <link rel="stylesheet" href="/styles/main.min.css" media="all" type="text/css">
+  <link rel="stylesheet" href="/styles/common.css" media="all" type="text/css">
+  <link rel="stylesheet" href="/styles/blocks.css" media="all" type="text/css">
+  <link rel="stylesheet" href="/styles/adaptive.css" media="all" type="text/css">
+  <link rel="stylesheet" href="/styles/style.css" type="text/css">
+</head>
+<body class="page_adaptive">
+<header class="header-anon" id="header-anon">
+  <div class="colored-line colored-line_uz">
+    <div class="colored-line__item colored-line__item_blue"></div>
+    <div class="colored-line__item colored-line__item_green"></div>
+    <div class="colored-line__item colored-line__item_yellow"></div>
+    <div class="colored-line__item colored-line__item_orange"></div>
+    <div class="colored-line__item colored-line__item_violet"></div>
+  </div>
+  <div class="header-anon__content">
+    <div class="header-anon__logotype">
+      <a href="https://kundalik.com/">
+        <img src="/icons/logotype.png" alt="Kundalik">
+      </a>
+    </div>
+    <div class="header-anon__menu-wrapper">
+      <div class="header-anon__menu">
+        <nav class="menu">
+          <ul class="menu__layout">
+            <li class="menu__layout_unit">
+              <a class="menu__item menu__item_border menu__item_no-left-padding"
+                 href="https://kundalik.com/about">Tashkilot</a>
+            </li>
+            <li class="menu__layout_unit">
+              <a class="menu__item menu__item_border"
+                 href="https://kundalik.com/features">Imkoniyatlar</a>
+            </li>
+            <li class="menu__layout_unit">
+              <a class="menu__item menu__item_border"
+                 href="https://kundalik.com/forpartners">Hamkorlarga</a>
+            </li>
+            <li class="menu__layout_unit">
+              <a class="menu__item menu__item_border menu__item_noborder menu__item_no-right-padding"
+                 href="https://kundalik.com/support">Yordam</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-anon__buttons">
+        <div class="header-anon__localization-button">
+          <div class="header-localization-select">
+            <div class="header-localization-select__info">
+              <div class="header-localization-select__info_row header-localization-select__info_row-content">O'zb</div>
+              <div class="header-localization-select__info_row header-localization-select__tumbler dropdown-tumbler"></div>
+            </div>
+            <div class="dropdown-container dropdown-container_font-weight-bold dropdown-container_left-position-0 dropdown-container_no-specific-last-child">
+              <a href="?language=uz" title="O&#39;zbekcha"
+                 class="link link_dropdown-container-link link_dropdown-container-link_selected link_">O'zbekcha</a>
+              <a href="?language=ru" title="Русский" class="link link_dropdown-container-link link_">Русский</a>
+            </div>
+          </div>
+        </div>
+        <div class="header-anon__button">
+          <a href="/" title="Kirish" class="button button_blue button_padding-20">Kirish</a>
+        </div>
+        <div class="header-anon__button">
+          <a href="https://login.kundalik.com/join/role" title="Tashkilotni ulash" class="button button_green button_padding-20 button_margin-left-20">Tashkilotni ulash</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="main main_top-30 ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-24 col-xs-24">
+        <div class="article-area">
+          <form class="login" method="POST" action="action.php">
+            <div class="login__header">
+              <div class="row row_centered">
+                <div class="login__header-title col-md-12 col-xs-12">
+                  <div class="login__header__text">
+                    <h1 class="h1 h1_white">Kirish Kundalik</h1>
+                  </div>
+                </div>
+                <div class="login__header-register-wrapper col-md-12 col-xs-12">
+                  <div class="login__header__register-link">
+                    <a class="link link_white" href="https://login.kundalik.com/join/role">Tizimda ro‘yxatdan o‘tmaganmisiz?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="login__body">
+              <div class="login__content login__content_mixed">
+                <div class="row row_centered login__form_shown">
+                  <div class="login-body__field-wrapper col-md-12 col-xs-12">
+                    <label class="label label_input-label label_bold">
+                      <strong>Login</strong>
+                      <input required name="login" type="text" autocomplete="on" data-test-id="login-field"
+                             class="input input__field input_full-width input_with-label-above input_line-height-28px login__body__input_login">
+                    </label>
+                  </div>
+                </div>
+                <div class="row row_centered login__form_shown">
+                  <div class="login-body__field-wrapper col-md-12 col-xs-12">
+                    <label class="label label_input-label label_bold">
+                      <strong>Parol</strong>
+                      <div style="display: flex">
+                        <input required name="password" type="password" oncopy="return false" autocomplete="on" data-test-id="password-field" id="password-field"
+                               class="input input__field input_full-width input_with-label-above input_line-height-28px login__body__input_password">
+                        <div id="pass-visibility-button" class="show-pass-button">
+                          <img id="visibility-icon" src="/icons/icon-show.svg" alt="Show/Hide">
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row_centered">
+              <div class="login-body__field-wrapper col-md-6 col-xs-6 login__form_shown">
+                <input type="submit" value="Tizimga kiring" class="login__submit button button_light-green button_top-10 button_full-width" data-test-id="login-button">
+              </div>
+            </div>
+            <div class="login__footer-wrapper row">
+              <div class="col-md-24 col-xs-24 login__form_shown">
+                <div class="login__footer">
+                  <div class="login__footer__help">
+                    <div class="message__help" style="background: url('/icons/help.png') no-repeat">
+                      <span class="message__help_wide">
+                        <p class="paragraph_help">Login yoki parolni unutdingizmi?
+                          <a class="link" href="https://login.kundalik.com/recovery">Loginni tiklash</a>.</p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer__menu">
+    <div>
+      <div class="footer__menu__links">
+        <div class="footer__column_25">
+          <div class="footer__menu__links__title">Tashkilot haqida</div>
+          <ul class="footer__menu__links__layout">
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/about" class="footer__menu__links__item">Biz haqimizda</a>
+            </li>
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/news" class="footer__menu__links__item">Yangiliklar</a>
+            </li>
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/contacts" class="footer__menu__links__item">Aloqa uchun ma'lumotlar</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column_25">
+          <div class="footer__menu__links__title">Imkoniyatlar</div>
+          <ul class="footer__menu__links__layout">
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/features#/teachers" class="footer__menu__links__item">O‘qituvchilarga</a>
+            </li>
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/features#/parents" class="footer__menu__links__item">Ota-onalarga</a>
+            </li>
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/features#/students" class="footer__menu__links__item">O‘quvchilarga</a>
+            </li>
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/features#/governments" class="footer__menu__links__item">Davlat organlariga</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column_25">
+          <div class="footer__menu__links__title">Hamkorlarga</div>
+          <ul class="footer__menu__links__layout">
+            <li class="footer__menu__links__layout_item">
+              <a href="https://kundalik.com/forpartners" class="footer__menu__links__item">Reklama</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column_25">
+          <div class="footer__menu__links__last-column-wrapper">
+            <div class="footer__menu__links__title footer__menu__links__title_no-margin-top">Qo‘llab-quvvatlash</div>
+            <div class="footer__menu__links__support">
+              <a href="https://help.kundalik.com/" class="footer__menu__links__support__link">Qo‘llab-quvvatlash xizmati portal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="footer__menu__buttons">
+        <div class="footer__column_25">
+          <div class="sociallinks">
+            <a href="#" target="_blank" class="sociallinks__button" title="Kundalik в Facebook">
+              <img src="/icons/social/f.png" alt="F">
+            </a>
+            <a href="#" target="_blank" class="sociallinks__button" title="Kundalik в Instagram">
+              <img src="/icons/social/i.png" alt="I">
+            </a>
+            <a href="#" target="_blank" class="sociallinks__button" title="Kundalik в Telegram">
+              <img src="/icons/social/t.png" alt="T">
+            </a>
+            <a href="#" target="_blank" class="sociallinks__button" title="Kundalik на YouTube">
+              <img src="/icons/social/y.png" alt="Y">
+            </a>
+            <a href="#" target="_blank" class="sociallinks__button" title="Kundalik на Mover">
+              <img src="/icons/social/m.png" alt="M">
+            </a>
+          </div>
+        </div>
+        <div class="footer__column_25 footer__join">
+          <a href="https://login.kundalik.com/join/role" title="Tashkilotni ulash" class="button button_green button_full-width">Tashkilotni ulash</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__copyright">
+    <div class="footer__copyright-content">
+      <div class="footer__copyright-item">
+        <div class="footer__copyright__terms">
+          <a href="https://kundalik.com/agreements/terms" class="footer__copyright__terms__link">Foydalanuvchining shartnomasi</a>
+        </div>
+      </div>
+      <div class="footer__copyright-item">
+        <div class="footer__copyright__label">©
+          <script>document.write(new Date().getFullYear().toString())</script>
+          ООО «Kundalik»</div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/scripts/password-visibility.js"></script>
+<script src="/scripts/dropdown-container.js"></script>
+</body>
+</html>
